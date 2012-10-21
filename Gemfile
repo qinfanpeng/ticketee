@@ -49,4 +49,5 @@ gem 'cucumber-rails', '1.0.6'
 gem 'capybara'
 gem 'database_cleaner'
 gem 'factory_girl_rails'
+gem 'devise', '~> 1.4.3'
 end
