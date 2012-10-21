@@ -107,6 +107,7 @@ Then /^(?:|I )should see "([^"]*)"$/ do |text|
     page.should have_content(text)
   else
     assert page.has_content?(text)
+   # puts "============ test here =============="
   end
 end
 
